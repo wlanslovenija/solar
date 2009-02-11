@@ -1,12 +1,10 @@
-/*
- * Mitar <mitar@tnode.com>
- * http://mitar.tnode.com/
- * In kind public domain.
- *
- * $Id$
- * $Revision$
- * $HeadURL$
- */
+# Mitar <mitar@tnode.com>
+# http://mitar.tnode.com/
+# In kind public domain.
+#
+# $Id$
+# $Revision$
+# $HeadURL$
 
 all: solar
 
