@@ -51,7 +51,7 @@ int version(int fd) {
 }
 
 void printhelp(FILE *output) {
-	fprintf(output, "solar[.<iface>] [-s] [-d <device>] [-b <baud>] <command>\n");
+	fprintf(output, "solar[.<iface>] [-p] [-d <device>] [-b <baud>] <command>\n");
 	fprintf(output, "  -p           plain (just values) output\n");
 	fprintf(output, "  -d <device>  use <device> as a serial port device file (default: %s)\n", DEFAULT_DEVICE_FILE);
 	fprintf(output, "  -b <baud>    communicate with <baud> baud over a serial port (default: %d)\n", DEFAULT_BAUD_NAME);
