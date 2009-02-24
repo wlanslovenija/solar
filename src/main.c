@@ -281,14 +281,14 @@ int main(int argc, char *argv[]) {
 
 	int fd;
 	if ((c != help) && (c != version) && ((fd = openserialport()) == -1)) {
-		fprintf(stderr, "Unable to open serial port device file '%s': %s.\n", device, strerror(errno));
+		fprintf(stderr, "Could not open serial port device file '%s': %s.\n", device, strerror(errno));
 		return 2;
 	}
 
 	int ret = c(fd);
 
 	if ((c != help) && (c != version) && (close(fd) == -1)) {
-		fprintf(stderr, "Unable to close serial port device file '%s': %s.\n", device, strerror(errno));
+		fprintf(stderr, "Could not close serial port device file '%s': %s.\n", device, strerror(errno));
 		return 2;
 	}
 

@@ -399,7 +399,7 @@ int pli_save(int fd) {
 	}
 
 	if (close(file) == -1) {
-		fprintf(stderr, "Unable to close configuration file 'solar.conf': %s.\n", strerror(errno));
+		fprintf(stderr, "Could not close configuration file 'solar.conf': %s.\n", strerror(errno));
 		return 2;
 	}
 
@@ -434,7 +434,7 @@ int pli_restore(int fd) {
 	}
 
 	if (close(file) == -1) {
-		fprintf(stderr, "Unable to close configuration file 'solar.conf': %s.\n", strerror(errno));
+		fprintf(stderr, "Could not close configuration file 'solar.conf': %s.\n", strerror(errno));
 		return 2;
 	}
 
