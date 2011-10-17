@@ -1,13 +1,3 @@
-/*
- * Mitar <mitar@tnode.com>
- * http://mitar.tnode.com/
- * In kind public domain.
- *
- * $Id$
- * $Revision$
- * $HeadURL$
- */
-
 #ifndef PLI_H_
 #define PLI_H_
 
